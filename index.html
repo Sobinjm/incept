@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Incept </title>
+  <meta charset="utf-8" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" type="text/css" href="font/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" type="text/css" href="font/mdi-font/css/material-design-iconic-font.min.css" />
+
+  <link rel="stylesheet" type="text/css" href="vendor/bootstrap4/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="vendor/owl-carousel/animate.css" />
+  <link rel="stylesheet" type="text/css" href="vendor/owl-carousel/owl.carousel.min.css" />
+  <link rel="stylesheet" type="text/css" href="vendor/owl-carousel/owl.theme.default.min.css" />
+  <link rel="stylesheet" type="text/css" href="vendor/revolution/settings.css" />
+  <link rel="stylesheet" type="text/css" href="vendor/revolution/navigation.css" />
+  <link rel="stylesheet" type="text/css" href="vendor/revolution/layers.css" />
+  <link rel="stylesheet" type="text/css" href="vendor/lightbox2/src/css/lightbox.css" />
+
+  <link rel="stylesheet" type="text/css" href="css/font.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+  <div id="page-loader">
+    <div class="page-loader__inner">
+      <div class="page-loader__spin"></div>
+    </div>
+  </div>
+
+  <div class="page-wrap">
+    <header class="header-stick header-stick--dark">
+      <div class="container clearfix">
+        <h1 class="logo pull-left">
+          <a href="index.html">
+            <img alt="Logo" src="img/logo-white.png" />
+          </a>
+        </h1>
+        <nav class="menu-desktop pull-right">
+          <ul class="ul--inline ul--no-style">
+            <li>
+              <a class="active" href="index.html"> Home </a>
+            </li>
+            <li>
+              <a href="about-us.html"> About </a>
+            </li>
+            <li>
+              <a href="projects.html"> Projects </a>
+            </li>
+            <li>
+              <a href="services.html"> Services </a>
+            </li>
+            <li>
+              <a href="contact.html"> Contact </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <header class="header-mobile">
+      <div class="container clearfix">
+        <h1 class="logo pull-left">
+          <a href="index.html">
+            <img alt="Logo" src="img/logo-black.png" />
+          </a>
+        </h1>
+        <a class="menu-mobile__button">
+          <i class="fa fa-bars"></i>
+        </a>
+        <nav class="menu-mobile hidden">
+          <ul class="ul--no-style">
+            <li>
+              <a class="active" href="index.html"> Home </a>
+            </li>
+            <li>
+              <a href="about-us.html"> About </a>
+            </li>
+            <li>
+              <a href="projects.html"> Projects </a>
+            </li>
+            <li>
+              <a href="services.html"> Services </a>
+            </li>
+            <li>
+              <a href="contact.html"> Contact </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <header class="header-desktop header4">
+      <div class="section-content section-content--w1090 clearfix">
+        <div class="container">
+          <nav class="menu-left d-flex mx-auto">
+            <h1 class="logo logo--center">
+              <a href="index.html">
+                <img alt="Logo" src="img/logo-white.png" />
+              </a>
+            </h1>
+            <ul class="ul--inline ul--no-style">
+              <li>
+                <a class="active" href="index.html"> Home </a>
+              </li>
+              <li>
+                <a href="about-us.html"> About </a>
+              </li>
+              <li>
+                <a href="projects.html"> Projects </a>
+              </li>
+            </ul>
+            <!-- </nav> -->
+
+            <!-- <nav class="menu-desktop menu-left pull-left"> -->
+            <ul class="ul--inline ul--no-style">
+              <li>
+                <a href="services.html"> Services </a>
+              </li>
+              <li>
+                <a href="contact.html"> contact </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- <div id="menu-canvas" class="menu-canvas--hidden">
+      <div class="menu-canvas__inner">
+        <div class="close-menu-canvas">
+          <i class="zmdi zmdi-close" id="btn-close"></i>
+        </div>
+        <h1 class="logo">
+          <a href="index.html">
+            <img alt="Logo" src="img/logo-white.png">
+          </a>
+        </h1>
+        <div class="menu-canvas-slide">
+          <div class="menu-canvas__image">
+            <div id="sync1" class="owl-carousel owl-theme">
+              <div class="item">
+                <img alt="Project 1" src="img/item-menu-canvas-01.jpg">
+              </div>
+              <div class="item">
+                <img alt="Project 2" src="img/item-menu-canvas-02.jpg">
+              </div>
+            </div>
+          </div>
+          <div id="sync2" class="owl-carousel owl-theme">
+            <p class="item menu-canvas__detail">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque la udantium
+            </p>
+            <p class="item menu-canvas__detail">
+              Loren son perspiciatis unde omgi iste natus error sit voluptmen accusantium doloremque la udantium
+            </p>
+          </div>
+        </div>
+        <div class="social">
+          <a href="#" class="social__item">
+            <i class="zmdi zmdi-facebook"></i>
+          </a>
+          <a href="#" class="social__item">
+            <i class="zmdi zmdi-dribbble"></i>
+          </a>
+          <a href="#" class="social__item">
+            <i class="zmdi zmdi-google"></i>
+          </a>
+          <a href="#" class="social__item">
+            <i class="zmdi zmdi-twitter"></i>
+          </a>
+          <a href="#" class="social__item">
+            <i class="zmdi zmdi-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </div> -->
+
+    <section class="slide">
+      <div class="rev_slider_wrapper">
+        <div id="revolution-slider5" class="rev_slider" data-version="5.4.4" style="display: none">
+          <ul>
+            <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" data-delay="5000">
+              <img src="img/slide/slide-1.jpg" alt="Slide 1" />
+              <div class="tp-caption slide-title slide-title-5-f" data-x="center" data-y="center"
+                data-voffset="['-80','-80','-60','-50']" data-fontsize="['48','48','40','34']" data-whitespace="no-wrap"
+                data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"y:bottom;rZ:90deg;sX:2;sY:2;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'>
+                let build
+              </div>
+              <div class="tp-caption slide-title slide-title-5" data-x="center" data-y="center"
+                data-fontsize="['72','72','50','44']" data-whitespace="no-wrap"
+                data-frames='[{"delay":1500,"speed":1500,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'>
+                beautiful future
+              </div>
+             
+            </li>
+            <li data-transition="parallaxtoright" data-slotamount="7" data-masterspeed="1500" data-delay="5000">
+              <img src="img/slide/slide-2.jpg" alt="Slide 2" />
+              <div class="tp-caption slide-title slide-title-5-f" data-x="center" data-y="center"
+                data-voffset="['-80','-80','-60','-50']" data-fontsize="['48','48','40','34']" data-whitespace="no-wrap"
+                data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"y:bottom;rZ:90deg;sX:2;sY:2;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'>
+                let build
+              </div>
+              <div class="tp-caption slide-title slide-title-5" data-x="center" data-y="center"
+                data-fontsize="['72','72','50','44']" data-whitespace="no-wrap"
+                data-frames='[{"delay":1500,"speed":1500,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'>
+                beautiful future
+              </div>
+              
+            </li>
+            <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" data-delay="5000">
+              <img src="img/slide/slide-3.jpg" alt="Slide 3" />
+              <div class="tp-caption slide-title slide-title-5-f" data-x="center" data-y="center"
+                data-voffset="['-80','-80','-60','-50']" data-fontsize="['48','48','40','34']" data-whitespace="no-wrap"
+                data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"y:bottom;rZ:90deg;sX:2;sY:2;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'>
+                let build
+              </div>
+              <div class="tp-caption slide-title slide-title-5" data-x="center" data-y="center"
+                data-fontsize="['72','72','50','44']" data-whitespace="no-wrap"
+                data-frames='[{"delay":1500,"speed":1500,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'>
+                beautiful future
+              </div>
+              
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="service-2">
+      <div class="container clearfix">
+        <div class="service-2-wrap clearfix">
+          <div class="service-2__left wow fadeInLeft" data-wow-duration="1s">
+            <div class="service-2__img">
+              <h2 class="title title-2--special title-small" id="our1">
+                Us
+              </h2>
+              <h2 class="title title-2--special title-small" id="our2">
+                About
+              </h2>
+              <img alt="Service thumb" src="img/service-page2.jpg" />
+            </div>
+          </div>
+          <div class="service-2__right">
+            <div class="service-2__inner-head wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+              <h3>
+                arch is your best solution
+              </h3>
+              <p>
+                The most important decision you will make when it comes to interior decoration is finding skilled and
+                reliable professionals. At Beautiful Homes Service, we ensure your house design is in the hands of our
+                panel of experienced interior designers. The design investment in your home should stand the proof of
+                time. I prefer clean elegance, comfortable living and quality interiors with an outdoor influence.
+                Client profiles have varied through the years in both demographics and personal style. It is our
+                privilege of working with many wonderful clients, implementing their own individual design needs and
+                turning their dreams into reality. It's more of a passion of mine which I find very rewarding in seeing
+                the completion of a project with dramatic results.</p>
+            </div>
+            <div class="service-2__inner-body wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+              <div class="box-item body__item clearfix">
+                <div class="box-head box-head--border">
+                  <img alt="Icon 1" src="img/icon/icon-service-04.png" />
+                </div>
+                <div class="box-body">
+                  <h5 class="color-secondary">
+                    <a href="service-list.html" class="color-secondary">OUR VISION</a>
+                  </h5>
+                  <p>
+                    To become reliable and Trust worthy partner to all our clients by setting high benchmarks in
+                    professional works and ethical standards in every service we offer in the Built Environment
+                  </p>
+                </div>
+              </div>
+              <div class="box-item body__item clearfix">
+                <div class="box-head box-head--border">
+                  <img alt="Icon 2" src="img/icon/icon-service-05.png" />
+                </div>
+                <div class="box-body">
+                  <h5 class="color-secondary">
+                    <a href="service-list.html" class="color-secondary">OUR VALUES</a>
+                  </h5>
+                  <p>
+                  <ul class="color-white">
+                    <li> Integrity</li>
+                    <li>Professionalism</li>
+                    <li>
+                      Respect</li>
+                    <li>
+                      Innovation</li>
+                  </ul>
+                  </p>
+                </div>
+              </div>
+              <div class="box-item body__item clearfix">
+                <div class="box-head box-head--border">
+                  <img alt="Icon 3" src="img/icon/icon-service-06.png" />
+                </div>
+                <div class="box-body">
+                  <h5 class="color-secondary">
+                    <a href="service-list.html" class="color-secondary">OUR MISION</a>
+                  </h5>
+                  <p>
+                    To provide professional services through a structured process and approach with an eye for
+                    continuous improvement and value addition.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="recent-project">
+      <div class="parallax parallax--slide-re-pro">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="title title-2 title--36 m-b-92 color-white">
+              recent project
+              <span class="under-title-2"> </span>
+            </h2>
+          </div>
+        </div>
+        <div class="slide-re-pro owl-carousel owl-theme" id="owl-re-pro-2">
+          <div class="slide-re-pro__item item">
+            <img alt="Project 1" src="img/recent-pro-01.jpg" class="img-responsive" />
+            <div class="pro-link">
+              <div class="pro-info">
+                <h4 class="pro-title">
+                  <a href="#"> VILIANT HOTEL </a>
+                </h4>
+                <p class="pro-cat-name">
+                  <a href="#">Bedroom</a>
+                  <a href="#">Living room</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="slide-re-pro__item item">
+            <img alt="Project 2" src="img/recent-pro-02.jpg" class="img-responsive" />
+            <div class="pro-link">
+              <div class="pro-info">
+                <h4 class="pro-title">
+                  <a href="#"> AU HOTEL </a>
+                </h4>
+                <p class="pro-cat-name">
+                  <a href="#">Living room</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="slide-re-pro__item item">
+            <img alt="Project 3" src="img/recent-pro-03.jpg" class="img-responsive" />
+            <div class="pro-link">
+              <div class="pro-info">
+                <h4 class="pro-title">
+                  <a href="#"> HOLLY HOTEL </a>
+                </h4>
+                <p class="pro-cat-name">
+                  <a href="#">Bedroom</a>
+                  <a href="#">Living room</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="slide-re-pro__item item">
+            <img alt="Project 4" src="img/recent-pro-04.jpg" class="img-responsive" />
+            <div class="pro-link">
+              <div class="pro-info">
+                <h4 class="pro-title">
+                  <a href="#"> Beach HOTEL </a>
+                </h4>
+                <p class="pro-cat-name">
+                  <a href="#">Bedroom</a>
+                  <a href="#">Living room</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="slide-re-pro__item item">
+            <img alt="Project 5" src="img/recent-pro-05.jpg" class="img-responsive" />
+            <div class="pro-link">
+              <div class="pro-info">
+                <h4 class="pro-title">
+                  <a href="#"> Skyline HOTEL </a>
+                </h4>
+                <p class="pro-cat-name">
+                  <a href="#">Bedroom</a>
+                  <a href="#">Living room</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="slide-re-pro__item item">
+            <img alt="Project 6" src="img/recent-pro-06.jpg" class="img-responsive" />
+            <div class="pro-link">
+              <div class="pro-info">
+                <h4 class="pro-title">
+                  <a href="#"> Au Office </a>
+                </h4>
+                <p class="pro-cat-name">
+                  <a href="#">Office</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+
+    <section class="process-page pt-5">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="title title-2 title--36 m-b-92 ">
+            Services
+            <span class="under-title-2"> </span>
+          </h2>
+        </div>
+      </div>
+      <div class="container">
+        <div class="process-item">
+          <div class="process__left wow fadeInLeft" data-wow-delay="1s">
+            <div class="pro__img">
+              <img alt="Process 1" src="img/service/home.jpeg" />
+            </div>
+          </div>
+          <div
+            class="process__right pro__text-wrap bg-f8 wow fadeInRight"
+            data-wow-delay="1s"
+          >
+            <div class="pro__text">
+              <h2>
+                <span>01</span>
+                HOME INTERIOR DESIGN
+              </h2>
+             
+             
+            </div>
+          </div>
+        </div>
+        <div class="process-item">
+          <div
+            class="process__left pro__text-wrap bg-f8 wow fadeInLeft"
+            data-wow-delay="1s"
+          >
+            <div class="pro__text">
+              <h2>
+                <span>02</span>
+                OFFICE INTERIOR DESIGN
+              </h2>
+              
+            </div>
+          </div>
+          <div class="process__right wow fadeInRight" data-wow-delay="1s">
+            <div class="pro__img">
+              <img alt="Process 2" src="img/service/office.jpeg" />
+            </div>
+          </div>
+        </div>
+        <div class="process-item">
+          <div class="process__left wow fadeInLeft">
+            <div class="pro__img">
+              <img alt="Process 3" src="img/service/wardrobes.jpeg" />
+            </div>
+          </div>
+          <div class="process__right pro__text-wrap bg-f8 wow fadeInRight">
+            <div class="pro__text">
+              <h2>
+                <span>03</span>
+                WARDROBES & LOFTS
+              </h2>
+              
+             
+              </div>
+            </div>
+          </div>
+        
+        <div class="process-item">
+          <div class="process__left pro__text-wrap bg-f8 wow fadeInLeft">
+            <div class="pro__text">
+              <h2 class="m-b-20">
+                <span>04</span>
+                CROCKERY
+              </h2>
+             
+            </div>
+          </div>
+          <div class="process__right wow fadeInRight">
+            <div class="pro__img">
+              <img alt="Process 4" src="img/service/crockery.jpeg" />
+            </div>
+          </div>
+        </div>
+        <div class="process-item">
+          <div class="process__left wow fadeInLeft">
+            <div class="pro__img">
+              <img alt="Process 3" src="img/service/kitchen.jpeg" />
+            </div>
+          </div>
+          <div class="process__right pro__text-wrap bg-f8 wow fadeInRight">
+            <div class="pro__text">
+              <h2>
+                <span>05</span>
+                MODULAR KITCHEN 
+              </h2>
+              
+             
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+    <section class="service-3 p-0 pb-5">
+      <!-- <div class="row">
+          <div class="col-md-12">
+            <h2 class="title title-2 title--36 m-b-92 ">
+              Services
+              <span class="under-title-2"> </span>
+            </h2>
+          </div>
+        </div> -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 col-12">
+            <div class="service-3__item bottom-shadow">
+              <div class="service-3__inner">
+                <div class="service-3-icon">
+                  <div class="service-3-icon__inner">
+                    <img alt="Icon service 1" src="img/icon/icon-service-07.png" />
+                  </div>
+                </div>
+                <h3>
+                  <a href="service-list.html">TOP RATED</a>
+                </h3>
+                <p>
+                  Established ourselves as market leaders within the sector followed by commercial, healthcare,
+                  residential and infrastructure projects.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 col-12">
+            <div class="service-3__item bottom-shadow">
+              <div class="service-3__inner">
+                <div class="service-3-icon">
+                  <div class="service-3-icon__inner">
+                    <img alt="Icon service 2" src="img/icon/icon-service-08.png" />
+                  </div>
+                </div>
+                <h3>
+                  <a href="service-list.html">QUALITY POLICY</a>
+                </h3>
+                <p>
+                  To continuously improve our Quality System so that our construction products and services meet our
+                  client satisfaction.
+                  <br>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 col-12">
+            <div class="service-3__item bottom-shadow">
+              <div class="service-3__inner">
+                <div class="service-3-icon">
+                  <div class="service-3-icon__inner">
+                    <img alt="Icon service 3" src="img/icon/icon-service-09.png" />
+                  </div>
+                </div>
+                <h3>
+                  <a href="service-list.html">CORE VALUES</a>
+                </h3>
+                <p>
+                  Our company is highly system oriented and has a well-structured setup including the following
+                  Divisions & Cells, with well-defined job functions.
+                  <br>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="overlay overlay--dark"></div>
+      <div class="parallax parallax--footer">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-7 col-md-9 col-12">
+              <h1>
+                <a href="index.html">
+                  <img alt="Logo" src="img/logo-white.png" />
+                </a>
+              </h1>
+              <div class="social">
+                <a href="#" class="social__item social__item--circle">
+                  <i class="zmdi zmdi-facebook"></i>
+                </a>
+                <a href="#" class="social__item social__item--circle">
+                  <i class="zmdi zmdi-dribbble"></i>
+                </a>
+                <a href="#" class="social__item social__item--circle">
+                  <i class="zmdi zmdi-google"></i>
+                </a>
+                <a href="#" class="social__item social__item--circle">
+                  <i class="zmdi zmdi-twitter"></i>
+                </a>
+                <a href="#" class="social__item social__item--circle">
+                  <i class="zmdi zmdi-instagram"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <section class="copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            Copyright © 2022 Developed by
+            <span>Rexknar</span> . All rights reserved
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <a href="#" id="btn-to-top">
+      <i class="fa fa-chevron-up"></i>
+    </a>
+  </div>
+
+  <script src="vendor/jquery-3.2.1.min.js" type="text/javascript"></script>
+  <script src="vendor/wow/wow.min.js" type="text/javascript"></script>
+  <script src="vendor/lightbox2/src/js/lightbox.js" type="text/javascript"></script>
+  <script src="vendor/bootstrap4/popper.min.js" type="text/javascript"></script>
+  <script src="vendor/bootstrap4/bootstrap.min.js" type="text/javascript"></script>
+  <script src="vendor/owl-carousel/owl.carousel.min.js" type="text/javascript"></script>
+  <script src="vendor/revolution/jquery.themepunch.revolution.min.js" type="text/javascript"></script>
+  <script src="vendor/revolution/jquery.themepunch.tools.min.js" type="text/javascript"></script>
+
+  <script type="text/javascript" src="vendor/revolution/local/revolution.extension.migration.min.js"></script>
+  <script type="text/javascript" src="vendor/revolution/local/revolution.extension.actions.min.js"></script>
+  <script type="text/javascript" src="vendor/revolution/local/revolution.extension.carousel.min.js"></script>
+  <script type="text/javascript" src="vendor/revolution/local/revolution.extension.kenburn.min.js"></script>
+  <script type="text/javascript" src="vendor/revolution/local/revolution.extension.layeranimation.min.js"></script>
+  <script type="text/javascript" src="vendor/revolution/local/revolution.extension.navigation.min.js"></script>
+  <script type="text/javascript" src="vendor/revolution/local/revolution.extension.parallax.min.js"></script>
+  <script type="text/javascript" src="vendor/revolution/local/revolution.extension.slideanims.min.js"></script>
+  <script type="text/javascript" src="vendor/revolution/local/revolution.extension.video.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      lightbox.option({
+        resizeDuration: 200,
+        wrapAround: false,
+        alwaysShowNavOnTouchDevices: true,
+      });
+    });
+  </script>
+
+  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/revo-custom.js"></script>
+  <script type="text/javascript" src="js/wow-custom.js"></script>
+</body>
+
+</html>

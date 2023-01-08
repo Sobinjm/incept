@@ -1,0 +1,1 @@
+(function($){"use strict";$('.counterUp').counterUp();$('.number1').counterUp();})(jQuery);
